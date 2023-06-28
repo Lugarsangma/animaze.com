@@ -1,0 +1,130 @@
+body{
+   margin: 0%;
+   padding: 0%;
+}
+ul{
+    list-style-type: none;
+    margin:0%;
+    padding:0%;
+    overflow: hidden;
+    background-color:rgb(41, 39, 39);
+}
+li{
+    float: left;
+}
+li a{
+    display:block;
+    color:white;
+    padding:14px 16px;
+    text-align: center;
+    text-decoration:none;
+}
+li a:hover{
+    background-color: rgb(163, 155, 155);
+}
+.img1{
+   background-image: url('7b8eaf435b317c0fbb61deb7d5d76d39.jpeg');
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.content1{
+    position:absolute;
+    top:70%;
+    width: 100%;
+    text-align: center;
+}
+.text1{
+    color: white;
+    background-color: rgb(77, 75, 75);
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 50px;
+}
+.about{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(80, 77, 77);
+}
+.about h2{
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ text-decoration: underline;
+ text-transform: uppercase;
+}
+.about p{
+    justify-content: center;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.img2{
+    background-image: url("pexels-pixabay-531880.jpg");
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+.content2{
+    position:absolute;
+    top:50%;
+    width: 100%;
+    text-align: center;
+}
+.text2{
+    color: white;
+    background-color: rgb(12, 12, 12);
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 50px;
+}
+.about{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(80, 77, 77);
+}
+.about h2{
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ text-decoration: underline;
+ text-transform: uppercase;
+}
+.about p{
+    justify-content: center;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.gallery{
+    margin: 5px;
+    border: 7px solid black;
+    width: 210px;
+    border-radius: 20px;
+}
+.gallery :hover{
+    border: 4px solid rgb(107, 105, 105);
+    border-radius: 21px;
+}
+.gallery img{
+    width:100%;
+    height: auto;
+}
+.desc{
+    text-align: center;
+    font-size: 30px;
+}
+.characters{
+    justify-content: space-between;
+    display: flex;
+}
+.img3{
+    background-image: url("pexels-stephan-seeber-1261728.jpg");
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
